@@ -24,7 +24,7 @@ const Cards = ({
                             <img className="front" src={card.src} />
                             <img
                                 className="back"
-                                src="/img/cover.png"
+                                src="./img/cover.png"
                                 onClick={() => !disabled && handleChoice(card)}
                             />
                         </Card>
