@@ -3,12 +3,12 @@ import "../App.css";
 import Cards from "./Cards";
 
 const cardImages = [
-    { src: "/img/helmet-1.png" },
-    { src: "/img/potion-1.png" },
-    { src: "/img/ring-1.png" },
-    { src: "/img/scroll-1.png" },
-    { src: "/img/shield-1.png" },
-    { src: "/img/sword-1.png" },
+    { src: "/build/img/helmet-1.png" },
+    { src: "/build/img/potion-1.png" },
+    { src: "/build/img/ring-1.png" },
+    { src: "/build/img/scroll-1.png" },
+    { src: "/build/img/shield-1.png" },
+    { src: "/build/img/sword-1.png" },
 ];
 
 function App() {
@@ -83,7 +83,7 @@ function App() {
                 secondChoice={secodChoice}
                 disabled={disabled}
             />
-            <p className="turn">turn : {turn}</p>
+            <p className="turn">Turn : {turn}</p>
         </div>
     );
 }
