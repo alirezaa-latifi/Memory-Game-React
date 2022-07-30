@@ -20,10 +20,9 @@ button:hover {
 .card-grid {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-
+    grid-template-columns: repeat(4, 150px);
     gap: 2rem;
+    place-content: center;
 }
 
 .card {
@@ -39,4 +38,31 @@ button:hover {
 
 .back {
     cursor: pointer;
+}
+
+.front {
+    position: absolute;
+    transform: rotateY(90deg);
+    transition: 0.2s all ease-in;
+}
+
+.flipped .front {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.back {
+    transform: rotateY(0deg);
+    transition: 0.2s all ease-in;
+    transition-delay: 0.2s;
+}
+
+.flipped .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
+
+.turn {
+    margin-top: 4rem;
+    text-align: center;
 }
