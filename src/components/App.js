@@ -3,12 +3,12 @@ import "../App.css";
 import Cards from "./Cards";
 
 const cardImages = [
-    { src: "/build/img/helmet-1.png" },
-    { src: "/build/img/potion-1.png" },
-    { src: "/build/img/ring-1.png" },
-    { src: "/build/img/scroll-1.png" },
-    { src: "/build/img/shield-1.png" },
-    { src: "/build/img/sword-1.png" },
+    { src: "./img/potion-1.png" },
+    { src: "./img/helmet-1.png" },
+    { src: "./img/ring-1.png" },
+    { src: "./img/scroll-1.png" },
+    { src: "./img/shield-1.png" },
+    { src: "./img/sword-1.png" },
 ];
 
 function App() {
