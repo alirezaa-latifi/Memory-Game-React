@@ -8,9 +8,9 @@ This project is developed for training purposes and bootstrapped with [Create Re
 
 ![memory-game](https://user-images.githubusercontent.com/92823582/185785425-a9311d50-1053-4543-bdce-ff9ca62d72fc.png)
 
-## I was focused on
+## Lessons Learned
 
-- State management by **prop driling**
+It was one of my very first experiences working with react, I tried to put what I've learned into practice, and the **state management by prop drilling** was the challenging part.
 
 ## Demo
 
